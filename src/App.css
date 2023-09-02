@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.heading-1 {
+ 
+    text-align: center;
+    font-size: 30px;
+    color: #36395A;
+    background-color: #d37070;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px 30px 10px;
+    margin-top: 30px;
+}
+.heading-2 {
+  text-align: center;
+  font-size: 70px;
+  color: #36395A;
+  background-color: #d37070;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px 30px 10px;
+  margin-top: 30px;
+}
+/* AddPost.js */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35%;
+  background-color: tan;
+  border: 2px solid #36395A;
+  border-radius: 4px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+  height: fit-content;
+
+}
+.form--heading {
+    
+    color: #36395A;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+
+}
+.form_container{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  height: auto;
+  width: 50%;
+  margin: 20px;
+}
+.form--label {
+  padding-bottom: 20px;
+  text-decoration: solid;
+  text-transform: uppercase;
+  
+}
+
+/* Post.js */
+.post {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: tan;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: fit-content;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column;
+}
+
+.button-30 {
+  margin: 10px 0;
+  width: 100px;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
