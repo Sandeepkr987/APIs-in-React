@@ -52,7 +52,7 @@ const deletePost = (id) => {
 
   return (
     <div className="App">
-     <h1 className='heading-1'>Consuming REST api tutorial</h1>
+     <h1 className='heading-1'>CONSUMING APIs</h1>
      <AddPost addPost={addPost}/>
      <section>
       <div className='heading-2'>Posts</div>
